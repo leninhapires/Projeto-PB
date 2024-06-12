@@ -1,23 +1,34 @@
-# PB UNICESUMAR
-# Documentação instalação Linux 
-_o Linux usado para realizar este projeto foi instalado em uma instancia ec2
-Amazon Linux 2_
-### instalando um S.O linux  
-Para instalar um sistema Linux veja na documentação oficial dos pré-requisitos do sistema
-### BAIXANDO A ISO   
-	ferramentas necessaria basicas para instalar diretamente no seu disco rigido:
-		ISO do sistema baixada
-		Pendrive de  no minimo 8G = Basicamente voce ira criar um pendrive bootável
-__VM(_VirtualMachine_ )__  
-	geralmente se utiliza a VirtualBox
-__Windows:__  
-	Baixe a ISO do sistema escolhido
-	Baixe o rufus 
-		insira o pendrive no seu hadware
+# PB COMPASS.UOL
+## PROJETO APACHE
 
-__No macOS__   
-	utiliza um VM como Parallels Desktop  
-__!!!!!ATENÇÃO:__ 	E de extrema impotancia ler a documentação no site oficial do sistema escolhido e seguir os passos indicados nos sites.  
+# Documentação instalação Linux 
+
+_o Linux usado para realizar este projeto foi instalado em uma instancia ec2
+Amazon Linux 2_00
+
+### Configurando o NFS  
+	-instalação do NFS no sistema  
+			nfs-utils
+	-iniciaçização do nfs  
+	-criação de uma pasta de usuario na pasta /home/usr  
+### exportação 
+	-editar pasta no vim /home/usr
+	-exportação da pasta /home/usr 
+### Apache
+	-instalação
+		httpd
+	-execução
+		systemctl enable httpd
+		systemctl start httpd
+		*verficar status* 
+		systemctl status httpd
+### Execução de verificação do Apache
+	-criação do script
+	-tornar o arquivo executavel 
+
+
+	
+__!!!!!ATENÇÃO:__ 	E de extrema impotancia ler a documentação no site oficial do sistema escolhido e seguir os passos indicados nos sites para realizar a instalação corretamente.  
       
 [__Debian:__]( https://www.debian.org/releases/stable/installmanual )   
 [__Ubuntu:__]( https://help.ubuntu.com/  )  
@@ -27,3 +38,4 @@ __!!!!!ATENÇÃO:__ 	E de extrema impotancia ler a documentação no site oficia
 [__Parallels:__]( https://www.parallels.com/br/products/desktop/resources/?clientId=1059725757.1718051326&sessionId=1718051325&_gl=1*1pwjyal*_up*MQ..*_ga*MTA1OTcyNTc1Ny4xNzE4MDUxMzI2*_ga_RYHBN2XNLK*MTcxODA1MTMyNS4xLjAuMTcxODA1MTMyNS4wLjAuMA..&gclid=CjwKCAjwyJqzBhBaEiwAWDRJVEPDH1SV7U3z7EsP7ur6F9j6V8h-Ytt5fPN1vX0ltIgx3heqk9OAmxoCc8IQAvD_BwE)
 	
 por:_Francilene de S. Pires
+
