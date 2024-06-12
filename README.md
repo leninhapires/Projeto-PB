@@ -20,7 +20,7 @@ Amazon Linux 2_00
 	-execução
 		systemctl enable httpd
 		systemctl start httpd
-		__verficar status do apache--
+		__verficar status do apache__
 		systemctl status httpd
 ### Execução de verificação do Apache
 	-criação do script
