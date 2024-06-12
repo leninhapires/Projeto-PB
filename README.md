@@ -10,10 +10,10 @@ Amazon Linux 2_00
 	-instalação do NFS no sistema  
 			nfs-utils
 	-inicialização do nfs  
-	-criação de uma pasta de usuario na pasta /home/usr  
+	-criação de uma pasta de usuario na pasta /mnt/nfs/francilene 
 ### exportação 
-	-editar pasta no vim /home/usr
-	-exportação da pasta /home/usr 
+	-editar pasta no vim vim /mnt/nfs/francilene
+	-exportação da pasta 
 ### Apache
 	-instalação
 		httpd
@@ -24,6 +24,7 @@ Amazon Linux 2_00
 		systemctl status httpd
 ### Execução de verificação do Apache
 	-criação do script
+              vim  home/francilene.verif_apache.sh
 	-tornar o arquivo executavel 
 
 
