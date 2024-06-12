@@ -9,7 +9,7 @@ Amazon Linux 2_00
 ### Configurando o NFS  
 	-instalação do NFS no sistema  
 			nfs-utils
-	-iniciaçização do nfs  
+	-inicialização do nfs  
 	-criação de uma pasta de usuario na pasta /home/usr  
 ### exportação 
 	-editar pasta no vim /home/usr
@@ -20,7 +20,7 @@ Amazon Linux 2_00
 	-execução
 		systemctl enable httpd
 		systemctl start httpd
-		*verficar status* 
+		**verficar status**
 		systemctl status httpd
 ### Execução de verificação do Apache
 	-criação do script
